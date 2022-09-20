@@ -1,0 +1,58 @@
+.btn-custom{
+    background-color: #2A93B0;
+    border-radius: 10px;
+}
+
+.btn-custom:hover{
+    opacity: .7;
+}
+
+.hero-section-3{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-3 .bg-content-3{
+    transform: translateY(150px);
+}
+
+.icon-wrap{ 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.icon-wrap.konten{
+    background-color: #FBB315;
+}
+
+.icon-wrap.kuis{
+    background-color: #2A93B0;
+}
+
+.icon-wrap.belajar{
+    background-color: #E92608;
+}
+
+
+.icon-wrap.sertifikat{
+    background-color: #ED3665;
+}
+
+.custom-card{
+    background: radial-gradient(100% 66.94% at 100% 100%, #5138EE 0%, rgba(81, 56, 238, 0.6) 100%);
+}
+
+
+.btn-custom-light{
+    background-color: #fff;
+    color: #5138EE;
+}
+
+.btn-custom-light:hover{
+    background-color: #fff;
+    color: #5138EE;
+    border-color: transparent;
+    opacity: .5;
+}
