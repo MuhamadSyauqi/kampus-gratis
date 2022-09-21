@@ -4,14 +4,14 @@ const Mentor = () => {
     return (
         <section>
             <div className="container">
-            <div className="row justify-content-center">
-                    <div className="col-lg-8 text-center py-5">
+                <div className="row section-title justify-content-center">
+                    <div className="col-lg-8 text-center">
                         <h2>Belajar langsung dari mentor kami</h2>
                     </div>
                 </div>
 
-                <div className="row justify-content-between g-3">
-                    <div className="col-md">
+                <div className="row g-3">
+                    <div className="col-sm-6 col-md-4 col-lg">
                         <div className="card shadow p-3">
                             <img
                                 className="card-img img-fluid"
@@ -23,7 +23,7 @@ const Mentor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md">
+                    <div className="col-sm-6 col-md-4 col-lg">
                         <div className="card shadow p-3">
                             <img
                                 className="card-img img-fluid"
@@ -35,7 +35,7 @@ const Mentor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md">
+                    <div className="col-sm-6 col-md-4 col-lg">
                         <div className="card shadow p-3">
                             <img
                                 className="card-img img-fluid"
@@ -47,7 +47,7 @@ const Mentor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md">
+                    <div className="col-sm-6 col-md-4 col-lg">
                         <div className="card shadow p-3">
                             <img
                                 className="card-img img-fluid"
@@ -59,7 +59,7 @@ const Mentor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md">
+                    <div className="col-sm-6 col-md-4 col-lg">
                         <div className="card shadow p-3">
                             <img
                                 className="card-img img-fluid"

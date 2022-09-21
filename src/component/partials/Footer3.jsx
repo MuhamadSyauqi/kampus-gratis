@@ -41,7 +41,7 @@ const Footer3 = () => {
                     <p className="ms-3 my-0 ">2022 - www.kampusgratis.id. All Rights Reserved.Made With Love</p>
                 </div>
             </div>
-            <img src={Circle2} alt="" style={{ position: 'absolute',bottom:'0',right:'-350px',filter:'blur(50px)'}}/>
+            {/* <img src={Circle2} alt="" style={{ position: 'absolute',bottom:'0',right:'-350px',filter:'blur(50px)'}}/> */}
         </footer>
     )
 }

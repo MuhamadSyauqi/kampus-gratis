@@ -1,9 +1,12 @@
 import React from 'react';
+import Circle2 from '../.././assets/user/images/BackgroundGlass/circle2.png';
 import '../../assets/user/css-custom/landing-page-3.css';
 
 const Hero = () => {
     return (
         <section className="hero-section-3">
+            {/* <img src={Circle2} alt="" style={{ position: 'absolute', top: '100px', right: '0', filter: 'blur(50px)', transform: 'translate(100px)' }} /> */}
+            <div className="circle2"></div>
             <div
                 className="bg-content-3 text-white d-flex flex-column align-items-center justify-content-center">
                 <h1 className="mb-4 mt-0 font-weight-bold text-center">Pembelajaran

@@ -8,7 +8,6 @@ import Header4 from '../component/partials/Header4'
 import Counter from '../component/landing-page3/Counter';
 import Fakultas from '../component/landing-page3/Fakultas';
 import Circle3 from '../assets/user/images/BackgroundGlass/circle3.png';
-import Circle2 from '../assets/user/images/BackgroundGlass/circle2.png';
 import Tentang from '../component/landing-page3/Tentang';
 import Testimoni from '../component/landing-page3/Testimoni';
 import Banner from '../component/landing-page3/Banner';
@@ -17,20 +16,20 @@ import Artikel from '../component/landing-page3/Artikel';
 const LandingPage3 = () => {
   return (
     <>
-        <Header4 />
-        <main>
-            <img src={Circle3}  alt="" style={{width: '35%', position: 'absolute',top:'0%',left:'-10%',filter:'blur(20px)'}}/>
-            <img src={Circle2} alt="" style={{ position: 'absolute',top:'100px',right:'-250px',filter:'blur(50px)'}}/>
-            <Hero />
-            <Counter />
-            <Fakultas/>
-            <Mentor />
-            <Tentang />
-            <Testimoni />
-            <Banner />
-            <Artikel />
-            <Footer3 />
-        </main>
+      <Header4 />
+      <main>
+        <img src={Circle3} alt="" style={{ width: '35%', position: 'absolute', top: '0%', left: '-10%', filter: 'blur(20px)' }} />
+
+        <Hero />
+        <Counter />
+        <Fakultas />
+        <Mentor />
+        <Tentang />
+        <Testimoni />
+        <Artikel />
+        <Banner />
+        <Footer3 />
+      </main>
     </>
   )
 }

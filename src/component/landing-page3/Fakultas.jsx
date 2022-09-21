@@ -4,7 +4,7 @@ const Fakultas = () => {
   return (
     <section>
       <div className="container">
-        <div className="row" style={{ marginBottom:'6rem' }}>
+        <div className="row section-title">
           <div className="col-lg-8 mx-auto text-center">
             <h2 className="">
               Fakultas <span className="title-small">Kami</span>

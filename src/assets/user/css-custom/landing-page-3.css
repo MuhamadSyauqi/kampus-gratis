@@ -56,3 +56,21 @@
     border-color: transparent;
     opacity: .5;
 }
+
+.circle2{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-image: url('../images//BackgroundGlass/circle2.png');
+    filter: blur(20px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;   
+}
+
+
+.section-title{
+    margin-bottom: 5rem;
+}
+

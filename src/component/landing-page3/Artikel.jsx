@@ -4,45 +4,57 @@ const Artikel = () => {
     return (
         <section>
             <div className="container text-dark">
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 text-center py-5">
+                <div className="row section-title justify-content-center">
+                    <div className="col-lg-8 text-center">
                         <h2>Artikel</h2>
                     </div>
                 </div>
 
                 <div className="row g-3 justify-content-between">
-                    <div className="col-md-3">
-                        <div class="card bg-secondary" >
-                            <img src="https://source.unsplash.com/random/" style={{ height: '250px', objectFit: 'cover' }} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text"><small>Source : </small></p>
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card bg-transparent">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="assets/images/event/02.jpg" class="card-img" alt="course image" />
+                                <div class="bg-overlay bg-dark opacity-4"></div>
 
+                            </div>
+
+                            <div class="card-body">
+                                <span class="small">Source : </span>
+                                <h5 class="card-title"><a href="#">Student Loan Survey: Many Owe $50K-plus</a></h5>
+                                <p class="text-truncate-2">Affronting imprudence do he he everything. Offered chiefly farther of my no colonel shyness. Such on help ye some door if in. Laughter proposal laughing any son law consider. Needed except up piqued an.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-md-3">
-                        <div class="card bg-secondary" >
-                            <img src="https://source.unsplash.com/random/" style={{ height: '250px', objectFit: 'cover' }} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text"><small>Source : </small></p>
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card bg-transparent">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="assets/images/event/02.jpg" class="card-img" alt="course image" />
+                                <div class="bg-overlay bg-dark opacity-4"></div>
 
+                            </div>
+
+                            <div class="card-body">
+                                <span class="small">Source : </span>
+                                <h5 class="card-title"><a href="#">Student Loan Survey: Many Owe $50K-plus</a></h5>
+                                <p class="text-truncate-2">Affronting imprudence do he he everything. Offered chiefly farther of my no colonel shyness. Such on help ye some door if in. Laughter proposal laughing any son law consider. Needed except up piqued an.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-md-3">
-                        <div class="card bg-secondary" >
-                            <img src="https://source.unsplash.com/random/" style={{ height: '250px', objectFit: 'cover' }} class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text"><small>Source : </small></p>
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card bg-transparent">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="assets/images/event/02.jpg" class="card-img" alt="course image" />
+                                <div class="bg-overlay bg-dark opacity-4"></div>
 
+                            </div>
+
+                            <div class="card-body">
+                                <span class="small">Source : </span>
+                                <h5 class="card-title"><a href="#">Student Loan Survey: Many Owe $50K-plus</a></h5>
+                                <p class="text-truncate-2">Affronting imprudence do he he everything. Offered chiefly farther of my no colonel shyness. Such on help ye some door if in. Laughter proposal laughing any son law consider. Needed except up piqued an.</p>
                             </div>
                         </div>
                     </div>
