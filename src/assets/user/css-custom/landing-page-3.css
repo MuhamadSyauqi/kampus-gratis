@@ -85,3 +85,12 @@
 .slick-list {
     margin: 0 -10px;
   }
+
+
+table,tr,td{
+    border: 1px solid black;
+}
+
+table,tr:last-child td{
+    border-bottom: 0;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerSilabus = () => {
   return (
-    <section className="bg-dark align-items-center d-flex mt-5">
+    <section className="bg-blue align-items-center d-flex mt-5">
       <div className="container">
         <div className="row">
           <div className="col-12">
