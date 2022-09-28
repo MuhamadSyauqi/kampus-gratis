@@ -2,8 +2,8 @@ import React from 'react'
 
 const Matakuliah = () => {
     return (
-        <div className="d-flex justify-content-between align-items-center">
-            <div className="d-flex align-items-center">
+        <div className="row justify-content-between">
+            <div className="d-flex align-items-center col-md-7 mb-3 mb-md-0">
                 <div className="ms-3">
                     <a href="/detail-matakuliah"
                         className="d-inline-block text-truncate mb-0 h6 fw-normal w-100px w-sm-200px w-md-400px">
@@ -15,8 +15,13 @@ const Matakuliah = () => {
                     </ul>
                 </div>
             </div>
-            <p><span className="fw-bold">18</span> Mahasiswa</p>
-            <div className="badge bg-primary">Basic</div>
+
+            <div className="ms-3 ms-md-0 d-flex justify-content-between align-items-center col-md-3">
+                <p className="m-0"><span className="fw-bold">18</span> Mahasiswa</p>
+                <div className="badge bg-primary">Basic</div>
+            </div>
+
+
         </div>
     )
 }

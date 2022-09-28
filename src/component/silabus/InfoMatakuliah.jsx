@@ -5,7 +5,7 @@ const InfoMatakuliah = () => {
         <div className="row justify-content-center">
             <div className="col-md-9">
                 <div className="shadow py-3 text-dark my-5 bg-body rounded px-3 px-md-5">
-                    <div className="d-flex justify-content-between fs-md-5">
+                    <div className="d-flex justify-content-between fs-5">
                         <p>MataKuliah</p>
                         <p className="text-left">Teknik Ancaman</p>
                     </div>

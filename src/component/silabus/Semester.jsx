@@ -1,7 +1,7 @@
 import React from 'react'
 import Matakuliah from './Matakuliah'
 
-const Semester = ({ id }) => {
+const Semester = ({ id, children }) => {
     return (
         <div className="accordion accordion-icon accordion-border" id="accordionExample2">
             <div className="accordion-item mb-3">
@@ -17,13 +17,7 @@ const Semester = ({ id }) => {
                 <div id={`collapse-${id}`} className="accordion-collapse collapse"
                     aria-labelledby="heading-1" data-bs-parent="#accordionExample2">
                     <div className="accordion-body mt-3">
-                        <Matakuliah />
-                        <hr />
-                        <Matakuliah />
-                        <hr />
-                        <Matakuliah />
-                        <hr />
-                        <Matakuliah />
+                        {children}
 
 
                     </div>

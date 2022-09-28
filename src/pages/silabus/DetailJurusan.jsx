@@ -11,38 +11,18 @@ const DetailJurusan = () => {
             <main>
 
                 <section className="bg-blue mt-5">
-                    <div className="container">
-                        <div className="row justify-content-lg-between">
+                    <div className="container py-4">
+                        <div className="row justify-content-lg-between align-items-end">
 
                             <div className="col-lg-8">
-
                                 <h1 className="text-white">Nama Jurusan</h1>
                                 <p className="text-white">Satisfied conveying a dependent contented he gentleman agreeable do be.
                                     Warrant private blushes removed an in equally totally if. Delivered dejection necessary
                                     objection do Mr prevailed. Mr feeling does chiefly cordial in do.</p>
+                            </div>
 
-                                <ul className="list-inline mb-5">
-                                    <li className="list-inline-item h6 me-4 mb-1 mb-sm-0 text-white"><span
-                                        className="fw-light">By</span> Lori Stevens</li>
-                                    <li className="list-inline-item me-4 mb-1 mb-sm-0">
-                                        <ul className="list-inline mb-0">
-                                            <li className="list-inline-item me-0 small"><i className="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li className="list-inline-item me-0 small"><i className="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li className="list-inline-item me-0 small"><i className="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li className="list-inline-item me-0 small"><i className="fas fa-star text-warning"></i>
-                                            </li>
-                                            <li className="list-inline-item me-0 small"><i
-                                                className="fas fa-star-half-alt text-warning"></i></li>
-                                            <li className="list-inline-item ms-2 h6 text-white">4.5/5.0</li>
-                                            <li className="list-inline-item text-white">(1,586 reviews)</li>
-                                        </ul>
-                                    </li>
-                                    <li className="list-inline-item h6 mb-0 text-white"><i
-                                        className="fas fa-globe text-info me-2"></i>English</li>
-                                </ul>
+                            <div class="col-lg-3">
+                                <a href="#" class="btn btn-warning mb-3 w-100">Enroll Course</a>
                             </div>
 
                         </div>
@@ -72,7 +52,15 @@ const DetailJurusan = () => {
 
                                             <div className="tab-pane fade show active" id="course-pills-1" role="tabpanel"
                                                 aria-labelledby="course-pills-tab-1">
-                                                <Semester id={"1"} />
+                                                <Semester id={"1"}>
+                                                    <Matakuliah />
+                                                    <hr />
+                                                    <Matakuliah />
+                                                    <hr />
+                                                    <Matakuliah />
+                                                    <hr />
+                                                    <Matakuliah />
+                                                </Semester>
                                                 <Semester id={"2"} />
                                                 <Semester id={"3"} />
                                             </div>
