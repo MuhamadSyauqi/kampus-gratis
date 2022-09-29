@@ -9,6 +9,8 @@ import DetailJurusan from "../pages/silabus/DetailJurusan";
 import DetailMatakuliah from "../pages/silabus/DetailMatakuliah";
 import HomeSilabus from "../pages/silabus/HomeSilabus";
 import KontrakKrs from "../pages/silabus/KontrakKrs";
+import DrafKrs from "../pages/silabus/DrafKrs";
+import DrafPengajuan from "../pages/silabus/DrafPengajuan";
 
 
 const Routed = () => {
@@ -19,6 +21,8 @@ const Routed = () => {
       <Route path="/detail-jurusan" element={<DetailJurusan />} />
       <Route path="/detail-matakuliah" element={<DetailMatakuliah />} />
       <Route path="/kontrak-krs" element={<KontrakKrs />} />
+      <Route path="/draf-krs" element={<DrafKrs />} />
+      <Route path="/draf-pengajuan" element={<DrafPengajuan />} />
     </Routes>
   );
 };

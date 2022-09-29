@@ -4,13 +4,13 @@ import Matakuliah from './Matakuliah'
 const Semester = ({ id, children }) => {
     return (
         <div className="accordion accordion-icon accordion-border" id="accordionExample2">
-            <div className="accordion-item mb-3">
+            <div className="accordion-item mb-3 shadow-sm ">
                 <h6 className="accordion-header font-base" id="heading-1">
                     <button className="accordion-button fw-bold rounded d-flex"
                         type="button" data-bs-toggle="collapse"
                         data-bs-target={`#collapse-${id}`} aria-expanded="false"
                         aria-controls={`collapse-${id}`}>
-                        Semester 1
+                        Semester {id}
                     </button>
                 </h6>
 
@@ -18,8 +18,6 @@ const Semester = ({ id, children }) => {
                     aria-labelledby="heading-1" data-bs-parent="#accordionExample2">
                     <div className="accordion-body mt-3">
                         {children}
-
-
                     </div>
                 </div>
             </div>

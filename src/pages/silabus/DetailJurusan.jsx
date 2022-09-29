@@ -5,6 +5,24 @@ import Matakuliah from '../../component/silabus/Matakuliah'
 import Semester from '../../component/silabus/Semester'
 
 const DetailJurusan = () => {
+    const data = [
+        {
+            namaMatakuliah: "Pemodelan Dan Simulasi Peperangan",
+            jumlahMahasiswa: 18,
+            level: 'basic'
+        },
+        {
+            namaMatakuliah: "Pemodelan Dan Simulasi Gasing",
+            jumlahMahasiswa: 7,
+            level: 'intermediate'
+        },
+        {
+            namaMatakuliah: "Logika Matematika",
+            jumlahMahasiswa: 25,
+            level: 'intermediate'
+        }
+    ];
+
     return (
         <>
             <Header4 />
@@ -52,17 +70,18 @@ const DetailJurusan = () => {
 
                                             <div className="tab-pane fade show active" id="course-pills-1" role="tabpanel"
                                                 aria-labelledby="course-pills-tab-1">
+
+
                                                 <Semester id={"1"}>
-                                                    <Matakuliah />
-                                                    <hr />
-                                                    <Matakuliah />
-                                                    <hr />
-                                                    <Matakuliah />
-                                                    <hr />
-                                                    <Matakuliah />
+                                                    {data.map((item, id) => (
+                                                        <>
+                                                            <Matakuliah key={id} data={item} />
+                                                            <hr />
+                                                        </>
+                                                    ))}
                                                 </Semester>
-                                                <Semester id={"2"} />
-                                                <Semester id={"3"} />
+                                                {/* <Semester id={"2"} />
+                                                <Semester id={"3"} /> */}
                                             </div>
 
                                         </div>

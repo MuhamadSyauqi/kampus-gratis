@@ -72,7 +72,7 @@ const DetailMatakuliah = () => {
                         <div className="row justify-content-center py-5 px-3 px-md-0">
                             <div className="card rounded-5 overflow-hidden border border-dark border-3 col-md-10 p-0">
                                 <div className="table-responsive">
-                                    <table className='table rounded-3 m-0 text-dark'>
+                                    <table className='table rounded-3 m-0 text-dark detail-matkul'>
                                         <tr>
                                             <td className="col-3 p-4 text-center">Kompetensi Dasar</td>
                                             <td></td>
