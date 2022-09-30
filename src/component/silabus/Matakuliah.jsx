@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Matakuliah = () => {
     return (
         <div className="row justify-content-between">
             <div className="d-flex align-items-center col-md-7 mb-3 mb-md-0">
                 <div className="ms-3">
-                    <a href="/detail-matakuliah"
+                    <Link to={"/detail-matakuliah"}
                         className="d-inline-block text-truncate mb-0 h6 fw-normal w-100px w-sm-200px w-md-400px">
-                        Pemodelan Dan Simulasi Peperangan</a>
+                        Pemodelan Dan Simulasi Peperangan</Link>
                     <ul className="nav nav-divider small mb-0">
                         <li className="nav-item">Kode MK</li>
                         <li className="nav-item">Jumlah SKS</li>

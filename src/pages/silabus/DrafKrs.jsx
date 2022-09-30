@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
 import Footer3 from '../../component/partials/Footer3'
@@ -43,7 +44,7 @@ const DrafKrs = () => {
                         <InfoMatakuliah />
 
                         <div className="d-flex justify-content-end">
-                            <a href="/kontrak-krs" className="btn btn-success"><i class="fa fa-plus me-2" aria-hidden="true"></i>Matkul</a>
+                            <Link to="/kontrak-krs" className="btn btn-success"><i class="fa fa-plus me-2" aria-hidden="true"></i>Matkul</Link>
                         </div>
                         <TabelMatkul>
                             <thead>
@@ -88,24 +89,6 @@ const DrafKrs = () => {
                         </TabelMatkul>
                         <div className="d-flex justify-content-center py-4">
                             <button className="btn btn-success" onClick={handleModal}><i class="fa fa-plus me-2" aria-hidden="true"></i>Ajukan</button>
-
-                            {/* <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div className="modal-dialog modal-dialog-centered">
-                                    <div className="modal-content">
-                                        <div className="modal-header border-0 ">
-                                            <h5 className="modal-title" id="exampleModalLabel">Konfirmasi</h5>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div className="modal-body">
-                                            Ajukan KRS ke dosen pembimbing?
-                                        </div>
-                                        <div className="modal-footer border-0 justify-content-center">
-                                            <button type="button" className="btn btn-danger me-4">Batal</button>
-                                            <button type="button" className="btn btn-success">Ajukan</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>

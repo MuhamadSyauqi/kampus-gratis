@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CardCourse = () => {
   return (
@@ -31,7 +32,7 @@ const CardCourse = () => {
               </div>
 
               <h5 className="card-title">
-                <a href="/detail-jurusan">Pengantar UMKM - 000371</a>
+                <Link to="/detail-jurusan">Pengantar UMKM - 000371</Link>
               </h5>
               <p className="text-truncate-2 d-none d-lg-block">
                 Satisfied conveying a dependent contented he gentleman agreeable

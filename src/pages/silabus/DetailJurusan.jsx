@@ -1,10 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import Swal from 'sweetalert2'
+
+
 import Footer3 from '../../component/partials/Footer3'
 import Header4 from '../../component/partials/Header4'
 import Matakuliah from '../../component/silabus/Matakuliah'
 import Semester from '../../component/silabus/Semester'
 
 const DetailJurusan = () => {
+    const navigate = useNavigate();
+
     const data = [
         {
             namaMatakuliah: "Pemodelan Dan Simulasi Peperangan",
@@ -23,6 +29,27 @@ const DetailJurusan = () => {
         }
     ];
 
+
+    const handleModal = () => {
+        Swal.fire({
+            title: "Konfirmasi",
+            text: "Enroll Nama Jurusan ?",
+            confirmButtonText: "Enroll",
+            showCancelButton: true,
+            cancelButtonText: "Batal",
+            customClass: {
+                confirmButton: "bg-success",
+                cancelButton: "bg-danger"
+            }
+        })
+            .then(result => {
+                if (result.isConfirmed) {
+                    console.log("test");
+                    navigate("/kontrak-krs");
+                }
+            });
+    }
+
     return (
         <>
             <Header4 />
@@ -40,7 +67,7 @@ const DetailJurusan = () => {
                             </div>
 
                             <div class="col-lg-3">
-                                <a href="#" class="btn btn-warning mb-3 w-100">Enroll Course</a>
+                                <button class="btn btn-warning mb-3 w-100" onClick={handleModal}>Enroll Course</button>
                             </div>
 
                         </div>
@@ -94,40 +121,6 @@ const DetailJurusan = () => {
                 </section>
 
             </main>
-            {/* Modal slide */}
-            <div className="modal fade" id="slideModal" tabIndex="-1" aria-labelledby="slideModalLabel" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered">
-                    <div className="modal-content">
-
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="slideModalLabel">Lecture Slides</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div className="modal-body">
-                            <h6 className="lead fw-bold">You can download or view this slide as:</h6>
-                            <p>These are the lecture slides from this unit. It would be helpful to take a look at them prior to
-                                taking the quiz. </p>
-
-                            <div className="hstack gap-3 flex-wrap">
-                                <a href=" " className="btn btn-lg btn-light">
-                                    <div className="fs-4"><i className="bi bi-file-earmark-pdf"></i></div>
-                                    <span className="fs-6 mb-0">Lecture 5 pdf</span>
-                                </a>
-
-                                <a href=" " className="btn btn-lg btn-light">
-                                    <div className="fs-4"><i className="bi bi-file-earmark-word"></i></div>
-                                    <span className="fs-6 mb-0">Lecture 5 docs</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="modal-footer">
-                            <button className="btn btn-primary mb-0">Mark as complete</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
             <Footer3 />
