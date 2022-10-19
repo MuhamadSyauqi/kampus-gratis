@@ -11,6 +11,9 @@ import HomeSilabus from "../pages/silabus/HomeSilabus";
 import KontrakKrs from "../pages/silabus/KontrakKrs";
 import DrafKrs from "../pages/silabus/DrafKrs";
 import DrafPengajuan from "../pages/silabus/DrafPengajuan";
+import HomePenyaluran from "../pages/penyalurankerja/HomePenyaluran";
+import DetailKerja from "../pages/penyalurankerja/DetailKerja";
+import UploadLamaran from "../pages/penyalurankerja/UploadLamaran";
 
 
 const Routed = () => {
@@ -23,6 +26,13 @@ const Routed = () => {
       <Route path="/kontrak-krs" element={<KontrakKrs />} />
       <Route path="/draf-krs" element={<DrafKrs />} />
       <Route path="/draf-pengajuan" element={<DrafPengajuan />} />
+
+      {/* Penyaluran Kerja */}
+      <Route path="/penyaluran-kerja" element={<HomePenyaluran />} />
+      <Route path="/detail-kerja" element={<DetailKerja />} />
+      <Route path="/upload-lamaran" element={<UploadLamaran />} />
+
+
     </Routes>
   );
 };
