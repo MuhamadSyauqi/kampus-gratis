@@ -14,6 +14,7 @@ import DrafPengajuan from "../pages/silabus/DrafPengajuan";
 import HomePenyaluran from "../pages/penyalurankerja/HomePenyaluran";
 import DetailKerja from "../pages/penyalurankerja/DetailKerja";
 import UploadLamaran from "../pages/penyalurankerja/UploadLamaran";
+import ProsesDokumen from "../pages/layanan/ProsesDokumen";
 
 
 const Routed = () => {
@@ -31,6 +32,9 @@ const Routed = () => {
       <Route path="/penyaluran-kerja" element={<HomePenyaluran />} />
       <Route path="/detail-kerja" element={<DetailKerja />} />
       <Route path="/upload-lamaran" element={<UploadLamaran />} />
+
+      {/* Layanan */}
+      <Route path="/proses-dokumen" element={<ProsesDokumen />} />
 
 
     </Routes>
