@@ -15,6 +15,7 @@ import HomePenyaluran from "../pages/penyalurankerja/HomePenyaluran";
 import DetailKerja from "../pages/penyalurankerja/DetailKerja";
 import UploadLamaran from "../pages/penyalurankerja/UploadLamaran";
 import ProsesDokumen from "../pages/layanan/ProsesDokumen";
+import StatusDokumen from "../pages/layanan/StatusDokumen";
 
 
 const Routed = () => {
@@ -35,6 +36,7 @@ const Routed = () => {
 
       {/* Layanan */}
       <Route path="/proses-dokumen" element={<ProsesDokumen />} />
+      <Route path="/status-dokumen" element={<StatusDokumen />} />
 
 
     </Routes>
