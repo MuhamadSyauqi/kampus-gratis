@@ -19,7 +19,10 @@ const Before = () => {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne">
                                 <div className="accordion-body bg-secondary text-light">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a interdum odio. Mauris consectetur tortor ut enim efficitur tincidunt. Morbi porttitor auctor risus, vitae pretium nisi. Quisque interdum tortor eget odio rutrum, non semper urna cursus. Nullam rhoncus diam et nulla semper, ac tempus tellus pellentesque. Donec tincidunt laoreet nunc sit amet efficitur. Phasellus neque lacus, facilisis nec enim ac, sollicitudin euismod diam. Curabitur placerat ex ac lectus elementum blandit. Sed efficitur condimentum tortor. Proin ac nisl augue. Vivamus mollis iaculis mauris. Donec consequat erat lectus, eu lobortis nunc tincidunt vitae.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a interdum odio. Mauris consectetur tortor ut enim efficitur tincidunt. 
+                                    Morbi porttitor auctor risus, vitae pretium nisi. Quisque interdum tortor eget odio rutrum, non semper urna cursus. Nullam rhoncus diam et nulla semper, 
+                                    ac tempus tellus pellentesque. Donec tincidunt laoreet nunc sit amet efficitur. Phasellus neque lacus, facilisis nec enim ac, sollicitudin euismod diam. 
+                                    Curabitur placerat ex ac lectus elementum blandit. Sed efficitur condimentum tortor. Proin ac nisl augue. Vivamus mollis iaculis mauris. Donec consequat erat lectus, eu lobortis nunc tincidunt vitae.
                                 </div>
                             </div>
                         </div>

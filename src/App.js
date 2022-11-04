@@ -13,6 +13,11 @@ import UploadLamaran from "./pages/penyalurankerja/UploadLamaran";
 import ProsesDokumen from "./pages/layanan/ProsesDokumen";
 import StatusDokumen from "./pages/layanan/StatusDokumen";
 import HomeLayanan from "./pages/layanan/HomeLayanan";
+import AcaraKampus from "./pages/acarakampus/AcaraKampus";
+import DetailAcara from "./pages/acarakampus/DetailAcara";
+import DetailAcara2 from "./pages/acarakampus/DetailAcara2";
+import DetailAcara3 from "./pages/acarakampus/DetailAcara3";
+import TampilanBerhasil from "./pages/acarakampus/TampilanBerhasil"
 
 function App() {
   return (
@@ -25,6 +30,11 @@ function App() {
         <Route path="/kontrak-krs" element={<KontrakKrs />} />
         <Route path="/draf-krs" element={<DrafKrs />} />
         <Route path="/draf-pengajuan" element={<DrafPengajuan />} />
+        <Route path="/acara-kampus" element={<AcaraKampus />} />
+        <Route path="/detail-acara" element={<DetailAcara />} />
+        <Route path="/detail-acara2" element={<DetailAcara2 />} />
+        <Route path="/detail-acara3" element={<DetailAcara3 />} />
+        <Route path="/tampilan-berhasil" element={<TampilanBerhasil />} />
 
         {/* Penyaluran Kerja */}
         <Route path="/penyaluran-kerja" element={<HomePenyaluran />} />
